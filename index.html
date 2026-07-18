@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ôn tập Kế toán – Thuế · TOPA</title>
+<meta name="description" content="Tài liệu ôn tập trực quan cho thực tập sinh Kế toán – Thuế: sơ đồ, infographic, flashcard, trắc nghiệm.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-logo">📚</span>
+      <div>
+        <h1>Ôn tập Kế toán – Thuế</h1>
+        <p class="brand-sub">Tài liệu trực quan cho thực tập sinh · TOPA Solution</p>
+      </div>
+    </div>
+    <button id="themeToggle" class="theme-toggle" title="Đổi giao diện sáng/tối" aria-label="Đổi giao diện">🌙</button>
+  </div>
+  <nav class="tabs wrap" id="tabs">
+    <button class="tab active" data-tab="sodo">📊 Sơ đồ &amp; Infographic</button>
+    <button class="tab" data-tab="mindmap">🧠 Mindmap</button>
+    <button class="tab" data-tab="flashcards">🎴 Flashcards</button>
+    <button class="tab" data-tab="quiz">✍️ Trắc nghiệm</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <!-- SƠ ĐỒ -->
+  <section id="panel-sodo" class="panel active">
+    <p class="lead">Mỗi chủ đề có <b>sơ đồ luồng</b> (tư duy nhanh) và <b>infographic</b> (chi tiết, đẹp). Bấm để xem lớn.</p>
+    <div id="galleryGroups"></div>
+  </section>
+
+  <!-- MINDMAP -->
+  <section id="panel-mindmap" class="panel">
+    <p class="lead">Bản đồ tư duy tổng quan toàn chương trình. Bấm để phóng to.</p>
+    <figure class="mindmap-fig">
+      <img src="img/mindmap.jpg" alt="Mindmap tổng quan" data-full="img/mindmap.jpg" class="zoomable">
+      <figcaption>Mindmap tổng quan Kế toán – Thuế</figcaption>
+    </figure>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section id="panel-flashcards" class="panel">
+    <p class="lead">Bấm vào thẻ để lật xem đáp án. Lọc theo chủ đề, hoặc bật <b>chế độ học</b> để đi từng thẻ.</p>
+    <div class="toolbar">
+      <div class="chips" id="fcChips"></div>
+      <div class="toolbar-actions">
+        <button id="fcShuffle" class="btn-ghost">🔀 Xáo trộn</button>
+        <button id="fcStudy" class="btn-primary">🎯 Chế độ học</button>
+      </div>
+    </div>
+    <div id="fcCount" class="count-line"></div>
+    <div id="fcGrid" class="fc-grid"></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="panel-quiz" class="panel">
+    <div class="notice">
+      ⚠️ Đây là <b>bộ câu hỏi LUYỆN TẬP</b> để ôn (có đáp án + giải thích ngay). Bài kiểm tra chính thức do mentor ra đề riêng.
+    </div>
+    <div id="quizIntro" class="quiz-intro">
+      <p class="lead">Chọn chủ đề rồi bắt đầu. Mỗi câu: chọn đáp án → biết đúng/sai ngay + giải thích căn cứ pháp luật.</p>
+      <div class="chips" id="quizChips"></div>
+      <button id="quizStart" class="btn-primary btn-lg">Bắt đầu luyện tập ▶</button>
+    </div>
+    <div id="quizRunner" class="hidden">
+      <div class="quiz-topbar">
+        <div class="progress"><div id="quizProgressBar" class="progress-bar"></div></div>
+        <div class="quiz-meta"><span id="quizPos"></span> · Điểm: <span id="quizScore">0</span></div>
+      </div>
+      <div id="quizCard"></div>
+      <div class="quiz-nav">
+        <button id="quizNext" class="btn-primary" disabled>Câu tiếp →</button>
+        <button id="quizQuit" class="btn-ghost">Thoát</button>
+      </div>
+    </div>
+    <div id="quizResult" class="hidden"></div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <p>Tài liệu ôn tập nội bộ · Kế toán – Thuế · Nội dung suy từ văn bản pháp luật hiện hành (2025–2026).</p>
+  <p class="muted">Nội dung câu hỏi/đáp án do AI trích xuất từ tài liệu NotebookLM — mentor rà soát trước khi dùng chính thức.</p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox hidden">
+  <button class="lb-close" aria-label="Đóng">✕</button>
+  <button class="lb-toggle hidden" id="lbToggle"></button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

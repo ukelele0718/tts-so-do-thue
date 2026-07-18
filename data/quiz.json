@@ -1,0 +1,506 @@
+[
+ {
+  "id": 1,
+  "question": "Công thức xác định Thu nhập chịu thuế thu nhập doanh nghiệp (TNDN) theo Luật số 67/2025/QH15 là gì?",
+  "options": [
+   "Thu nhập chịu thuế = Doanh thu − Chi phí giá vốn + Thu nhập khác",
+   "Thu nhập chịu thuế = Tổng lợi nhuận kế toán trước thuế + Các khoản điều chỉnh thuế",
+   "Thu nhập chịu thuế = Thu nhập tính thuế − Thu nhập miễn thuế",
+   "Thu nhập chịu thuế = Doanh thu − Các khoản chi được trừ + Các khoản thu nhập khác"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Công thức này thiếu các khoản chi được trừ và các khoản điều chỉnh theo luật thuế.",
+   "Đây là cách tiếp cận từ báo cáo kết quả kinh doanh, không phải công thức định nghĩa trực tiếp trong văn bản luật này.",
+   "Đây là cách tính ngược, thực tế thu nhập tính thuế được xác định từ thu nhập chịu thuế.",
+   "Đây là công thức chuẩn xác được quy định tại Điều 7 của Luật số 67/2025/QH15."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 2,
+  "question": "Theo quy định mới nhất tại Nghị định 181/2025/NĐ-CP, ngưỡng giá trị hàng hóa, dịch vụ mua vào từng lần tối thiểu là bao nhiêu để bắt buộc phải có chứng từ thanh toán không dùng tiền mặt khi khấu trừ thuế GTGT?",
+  "options": [
+   "10 triệu đồng trở lên chưa bao gồm thuế GTGT",
+   "02 triệu đồng trở lên tính theo tổng giá trị hóa đơn",
+   "20 triệu đồng trở lên đã bao gồm thuế GTGT",
+   "05 triệu đồng trở lên đã bao gồm thuế GTGT"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Mức này không đúng với quy định về ngưỡng thanh toán không dùng tiền mặt hiện hành.",
+   "Đây là một con số giả định, không có trong các nguồn tài liệu được cung cấp.",
+   "Đây là quy định cũ trước đây, hiện đã được thay đổi trong các văn bản pháp luật mới năm 2025.",
+   "Theo Nghị định 181/2025/NĐ-CP và Nghị định 320/2025/NĐ-CP, ngưỡng thanh toán không dùng tiền mặt đã được giảm xuống còn 05 triệu đồng."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 3,
+  "question": "Thời điểm lập hóa đơn đối với hoạt động cung cấp dịch vụ được xác định như thế nào theo Nghị định 70/2025/NĐ-CP?",
+  "options": [
+   "Chỉ khi đã thu được tiền của khách hàng",
+   "Thời điểm ký hợp đồng cung cấp dịch vụ",
+   "Thời điểm hoàn thành cung cấp dịch vụ hoặc thời điểm thu tiền trước/trong khi cung cấp dịch vụ",
+   "Cuối mỗi tháng sau khi đối soát dữ liệu dịch vụ"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Việc lập hóa đơn không phụ thuộc hoàn toàn vào việc đã thu tiền hay chưa nếu dịch vụ đã hoàn thành.",
+   "Ký hợp đồng chưa phải là thời điểm phát sinh nghĩa vụ thuế GTGT và lập hóa đơn theo quy định.",
+   "Điều 1 Nghị định 70/2025/NĐ-CP quy định thời điểm lập hóa đơn là khi hoàn thành dịch vụ, nếu thu tiền trước hoặc trong khi cung cấp thì là thời điểm thu tiền.",
+   "Đây là trường hợp đặc thù cho một số ngành nhất định, không phải nguyên tắc chung cho mọi dịch vụ."
+  ],
+  "topic": "Hóa đơn"
+ },
+ {
+  "id": 4,
+  "question": "Loại hàng hóa, dịch vụ nào sau đây KHÔNG thuộc diện được giảm thuế suất thuế GTGT xuống 8% theo Nghị định 174/2025/NĐ-CP?",
+  "options": [
+   "Sản phẩm may mặc thời trang",
+   "Dịch vụ khoa học và công nghệ",
+   "Hoạt động kinh doanh bất động sản",
+   "Sản phẩm khai khoáng than"
+  ],
+  "correct": 2,
+  "explanations": [
+   "May mặc thông thường không thuộc danh mục loại trừ tại Phụ lục I và II, nên được áp dụng mức 8%.",
+   "Dịch vụ này thường áp dụng mức thuế suất khác hoặc được giảm nếu đang ở mức 10% và không thuộc phụ lục loại trừ.",
+   "Kinh doanh bất động sản nằm trong danh sách các nhóm không được giảm thuế suất GTGT tại khoản 1 Điều 1 Nghị định 174/2025/NĐ-CP.",
+   "Sản phẩm than nằm trong danh mục loại trừ của loại trừ (vẫn được giảm) theo điểm a khoản 1 Điều 1."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 5,
+  "question": "Trường hợp mua hàng hóa của một người bán nhiều lần trong cùng một ngày, mỗi lần dưới 5 triệu nhưng tổng giá trị đạt từ 5 triệu đồng trở lên thì xử lý như thế nào về thuế TNDN?",
+  "options": [
+   "Phải tách các giao dịch sang các ngày khác nhau để được chấp nhận thanh toán tiền mặt",
+   "Chỉ được tính vào chi phí được trừ nếu có chứng từ thanh toán không dùng tiền mặt",
+   "Vẫn được tính vào chi phí được trừ vì mỗi lần thanh toán đều dưới ngưỡng quy định",
+   "Được tính vào chi phí nếu doanh nghiệp lập bảng kê mua hàng không có hóa đơn"
+  ],
+  "correct": 1,
+  "explanations": [
+   "Đây là hành vi lách luật và không đúng với quy định về xác định chi phí dựa trên thực tế phát sinh.",
+   "Theo điểm c1 khoản 1 Điều 2 Nghị định 320/2025/NĐ-CP, nếu tổng giao dịch trong ngày với cùng một người bán từ 05 triệu trở lên thì phải thanh toán không dùng tiền mặt.",
+   "Luật quy định tính theo tổng giá trị giao dịch trong cùng một ngày với cùng một người bán.",
+   "Việc lập bảng kê không thay thế được điều kiện về chứng từ thanh toán đối với các giao dịch có hóa đơn."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 6,
+  "question": "Đối với xe ô tô chở người từ 09 chỗ ngồi trở xuống (trừ xe dùng cho kinh doanh vận tải, làm mẫu...), phần giá trị vượt trên mức nào thì số thuế GTGT đầu vào tương ứng sẽ KHÔNG được khấu trừ?",
+  "options": [
+   "1 tỷ đồng",
+   "2 tỷ đồng",
+   "1,6 tỷ đồng",
+   "1,5 tỷ đồng"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Mức 1 tỷ đồng thấp hơn so với định mức 1,6 tỷ đồng được quy định trong luật thuế hiện hành.",
+   "Con số này không đúng với định mức khống chế giá trị tài sản cố định là ô tô chở người theo quy định.",
+   "Nghị định 181/2025/NĐ-CP kế thừa quy định phần giá trị vượt trên 1,6 tỷ đồng đối với xe ô tô dưới 9 chỗ không dùng cho mục đích đặc thù thì không được khấu trừ thuế GTGT.",
+   "Con số này gần đúng nhưng định mức chính xác trong văn bản pháp luật là 1,6 tỷ đồng."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 7,
+  "question": "Khi xác định doanh thu tính thuế TNDN cho doanh nghiệp nộp thuế GTGT theo phương pháp khấu trừ, doanh thu được ghi nhận là:",
+  "options": [
+   "Doanh thu sau khi đã trừ đi các khoản chi phí được trừ",
+   "Doanh thu bao gồm cả thuế GTGT",
+   "Tổng giá trị thanh toán trên hóa đơn trừ đi các khoản giảm giá",
+   "Doanh thu chưa bao gồm thuế GTGT"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Đây là khái niệm về thu nhập, không phải doanh thu tính thuế.",
+   "Doanh thu bao gồm thuế GTGT chỉ áp dụng cho doanh nghiệp nộp thuế theo phương pháp trực tiếp.",
+   "Mặc dù có phần đúng về mặt kế toán nhưng định nghĩa pháp lý nhấn mạnh vào việc tách thuế GTGT đối với phương pháp khấu trừ.",
+   "Theo khoản 1 Điều 2 Nghị định 320/2025/NĐ-CP, đối với phương pháp khấu trừ, doanh thu tính thuế là doanh thu không có thuế GTGT."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 8,
+  "question": "Thời điểm xác định thuế GTGT đối với hoạt động kinh doanh bất động sản do cơ quan nào quy định chi tiết?",
+  "options": [
+   "Chính phủ",
+   "Quốc hội",
+   "Tổng cục Thuế",
+   "Bộ Tài chính"
+  ],
+  "correct": 0,
+  "explanations": [
+   "Khoản 2 Điều 8 Luật Thuế GTGT số 48/2024/QH15 giao Chính phủ quy định thời điểm xác định thuế đối với các hoạt động như bất động sản, dầu khí...",
+   "Quốc hội ban hành Luật, còn việc quy định chi tiết thời điểm cụ thể thường được giao lại cho cơ quan hành pháp.",
+   "Tổng cục Thuế là cơ quan thực thi, việc quy định chi tiết các nội dung luật định thường thuộc cấp cao hơn.",
+   "Mặc dù Bộ Tài chính soạn thảo nhưng văn bản quy định chi tiết Điều 8 thường là Nghị định của Chính phủ."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 9,
+  "question": "Hóa đơn điện tử khởi tạo từ máy tính tiền có mã của cơ quan thuế có đặc điểm gì nổi bật so với hóa đơn điện tử thông thường?",
+  "options": [
+   "Chỉ được dùng cho các cá nhân không kinh doanh",
+   "Phải được in ra giấy thì mới được tính là chứng từ hợp pháp",
+   "Không bắt buộc có chữ ký số của người bán",
+   "Bắt buộc phải có chữ ký số của người mua"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Mọi tổ chức, cá nhân bán hàng hóa, dịch vụ theo mô hình phù hợp đều có thể đăng ký sử dụng.",
+   "Dữ liệu điện tử mới là giá trị cốt lõi, việc in phiếu tính tiền chỉ là một bước trong quy trình giao dịch.",
+   "Theo khoản 2 Điều 3 Nghị định 70/2025/NĐ-CP, hóa đơn khởi tạo từ máy tính tiền không bắt buộc có chữ ký số.",
+   "Hóa đơn máy tính tiền không bắt buộc phải có chữ ký số theo quy định tại Nghị định 70/2025/NĐ-CP."
+  ],
+  "topic": "Hóa đơn"
+ },
+ {
+  "id": 10,
+  "question": "Trường hợp doanh nghiệp trả tiền học phí tại Việt Nam cho con của người lao động nước ngoài từ bậc mầm non đến trung học phổ thông, khoản chi này được trừ khi tính thuế TNDN nếu:",
+  "options": [
+   "Khoản chi này không vượt quá 01 tháng lương bình quân",
+   "Con của người lao động phải học tại các trường công lập",
+   "Chỉ áp dụng đối với các chuyên gia có thời gian công tác trên 183 ngày",
+   "Có ghi trong hợp đồng lao động và có đầy đủ hóa đơn, chứng từ"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Đây là định mức thường áp dụng cho các khoản chi phúc lợi, không phải chi tiền học phí có tính chất tiền lương.",
+   "Quy định không giới hạn loại hình trường học, chỉ giới hạn bậc học từ mầm non đến THPT.",
+   "Điều kiện này liên quan đến xác định đối tượng cư trú trong thuế TNCN, không phải điều kiện khấu trừ chi phí TNDN cho khoản này.",
+   "Đây là điều kiện được quy định tại điểm b1 khoản 2 Điều 2 Nghị định 320/2025/NĐ-CP."
+  ],
+  "topic": "Thuế TNCN"
+ },
+ {
+  "id": 11,
+  "question": "Mức thuế suất GTGT 0% áp dụng đối với hàng hóa xuất khẩu KHÔNG bao gồm trường hợp nào dưới đây theo Nghị định 181/2025/NĐ-CP?",
+  "options": [
+   "Hàng hóa đã bán tại cửa hàng miễn thuế",
+   "Hàng hóa nội địa bán cho tổ chức trong khu phi thuế quan",
+   "Hàng hóa bán tại khu vực cách ly cho cá nhân đã làm thủ tục xuất cảnh",
+   "Chuyển giao công nghệ, chuyển nhượng quyền sở hữu trí tuệ ra nước ngoài"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Đây là đối tượng được áp dụng thuế suất 0% theo quy định hiện hành.",
+   "Đây là trường hợp được coi là xuất khẩu tại chỗ và áp dụng thuế suất 0%.",
+   "Đây là trường hợp được áp dụng thuế suất 0% theo quy định tại Luật Thuế GTGT.",
+   "Khoản 4 Điều 4 Nghị định 181/2025/NĐ-CP loại trừ dịch vụ này khỏi đối tượng được áp dụng thuế suất 0%."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 12,
+  "question": "Theo Luật Thuế TNDN số 67/2025/QH15, nếu doanh nghiệp có hoạt động sản xuất kinh doanh bị lỗ thì được xử lý như thế nào?",
+  "options": [
+   "Số lỗ chỉ được bù trừ tối đa 50% thu nhập của hoạt động có lãi",
+   "Phải kết chuyển số lỗ sang kỳ tính thuế tiếp theo và không được bù trừ trong kỳ hiện tại",
+   "Được bù trừ số lỗ vào thu nhập chịu thuế của các hoạt động khác do doanh nghiệp tự lựa chọn",
+   "Chỉ được bù trừ lỗ giữa các hoạt động có cùng mức thuế suất"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Luật không quy định hạn mức tỷ lệ bù trừ lỗ trong cùng một kỳ tính thuế như thế này.",
+   "Doanh nghiệp được phép bù trừ ngay trong kỳ tính thuế giữa các hoạt động có thu nhập.",
+   "Quy định tại khoản 3 Điều 7 cho phép doanh nghiệp tự lựa chọn bù trừ lỗ vào các hoạt động có thu nhập (trừ một số ngoại lệ).",
+   "Luật không giới hạn việc bù trừ phải cùng mức thuế suất, trừ trường hợp ưu đãi thuế cụ thể."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 13,
+  "question": "Theo Thông tư 99/2025/TT-BTC, tài khoản nào được sử dụng để phản ánh số thuế GTGT đầu vào được khấu trừ?",
+  "options": [
+   "Tài khoản 138",
+   "Tài khoản 133",
+   "Tài khoản 3331",
+   "Tài khoản 3338"
+  ],
+  "correct": 1,
+  "explanations": [
+   "Tài khoản 138 dùng cho các khoản phải thu khác, không chuyên biệt cho thuế GTGT.",
+   "Tài khoản 133 - Thuế GTGT được khấu trừ dùng để ghi nhận số thuế GTGT đầu vào phát sinh và đã khấu trừ.",
+   "Tài khoản 3331 dùng để phản ánh thuế GTGT đầu ra phải nộp.",
+   "Tài khoản 3338 dùng cho các loại thuế khác như thuế bảo vệ môi trường."
+  ],
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 14,
+  "question": "Trường hợp doanh nghiệp ủy quyền cho người lao động thanh toán hộ hàng hóa, dịch vụ phục vụ sản xuất kinh doanh có giá trị từ 5 triệu đồng trở lên, chi phí này được trừ khi tính thuế TNDN nếu:",
+  "options": [
+   "Người lao động thanh toán bằng tiền mặt rồi doanh nghiệp trả lại bằng chuyển khoản",
+   "Doanh nghiệp có quy chế tài chính cho phép nhưng không cần hóa đơn mang tên công ty",
+   "Người lao động thanh toán bằng hình thức không dùng tiền mặt và doanh nghiệp thanh toán lại cho người lao động bằng hình thức không dùng tiền mặt",
+   "Số tiền thanh toán lại cho người lao động có thể bằng tiền mặt nếu có phiếu chi"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Việc người lao động dùng tiền mặt không thỏa mãn điều kiện thanh toán không dùng tiền mặt tại khâu mua hộ.",
+   "Hóa đơn vẫn phải mang tên, địa chỉ, mã số thuế của doanh nghiệp theo quy định chung về hóa đơn chứng từ.",
+   "Theo điểm c2 khoản 1 Điều 2 Nghị định 320/2025/NĐ-CP, cả hai khâu thanh toán (người lao động trả người bán và doanh nghiệp trả người lao động) đều phải không dùng tiền mặt.",
+   "Quy định mới bắt buộc việc thanh toán lại cũng phải qua hình thức không dùng tiền mặt đối với ngưỡng từ 5 triệu đồng."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 15,
+  "question": "Theo Luật Thuế GTGT 2024, thuế suất 10% được áp dụng cho đối tượng nào sau đây bao gồm cả các giao dịch qua thương mại điện tử?",
+  "options": [
+   "Đồ chơi cho trẻ em",
+   "Sách các loại bao gồm cả sách giáo khoa",
+   "Hoạt động nghệ thuật biểu diễn truyền thống",
+   "Dịch vụ do nhà cung cấp nước ngoài không có cơ sở thường trú cung cấp cho cá nhân tại Việt Nam qua nền tảng số"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Đồ chơi trẻ em thuộc danh mục áp dụng thuế suất 5% theo khoản 2 Điều 9 Luật Thuế GTGT.",
+   "Sách thường thuộc đối tượng không chịu thuế hoặc chịu mức thuế suất thấp hơn (5%).",
+   "Đây là hoạt động thuộc đối tượng hưởng thuế suất ưu đãi 5%.",
+   "Khoản 3 Điều 9 Luật số 48/2024/QH15 quy định mức 10% cho các dịch vụ cung cấp qua kênh thương mại điện tử và nền tảng số."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 16,
+  "question": "Khi xác định số lượng bình quân gia quyền của cổ phiếu phổ thông để tính Lãi cơ bản trên cổ phiếu (EPS), trường hợp có sự chênh lệch số trích Quỹ khen thưởng phúc lợi thì xử lý như thế nào?",
+  "options": [
+   "Ghi nhận vào chi phí của năm hiện tại khi có quyết định phê duyệt",
+   "Điều chỉnh hồi tố, tính vào lãi cơ bản trên cổ phiếu của năm trước",
+   "Không cần điều chỉnh vì đây là sự thay đổi ước tính kế toán",
+   "Chỉ thuyết minh trên Bản thuyết minh báo cáo tài chính, không điều chỉnh số liệu"
+  ],
+  "correct": 1,
+  "explanations": [
+   "Kế toán yêu cầu điều chỉnh lại số liệu của năm báo cáo để phản ánh đúng EPS của năm đó.",
+   "Theo Thông tư 99/2025/TT-BTC, các khoản chênh lệch ước tính quỹ khen thưởng phúc lợi phải được điều chỉnh hồi tố khi tính EPS.",
+   "Mặc dù là ước tính nhưng văn bản hướng dẫn chuyên biệt về EPS yêu cầu điều chỉnh để số liệu so sánh chính xác.",
+   "Việc chỉ thuyết minh là chưa đủ theo yêu cầu trình bày chỉ tiêu EPS trên báo cáo kết quả kinh doanh."
+  ],
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 17,
+  "question": "Trường hợp doanh nghiệp mua hàng hóa trả chậm có giá trị trên 5 triệu đồng, tại thời điểm chưa đến hạn thanh toán, doanh nghiệp có được khấu trừ thuế GTGT đầu vào không?",
+  "options": [
+   "Không được khấu trừ cho đến khi thực hiện thanh toán xong",
+   "Phải có bảo lãnh ngân hàng mới được khấu trừ trước",
+   "Vẫn được khấu trừ thuế GTGT đầu vào",
+   "Chỉ được khấu trừ 50% số thuế ghi trên hóa đơn"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Doanh nghiệp vẫn được khấu trừ dựa trên hóa đơn và hợp đồng trước khi thanh toán.",
+   "Bảo lãnh ngân hàng không phải là điều kiện bắt buộc để khấu trừ thuế GTGT đối với hàng trả chậm.",
+   "Theo điểm g khoản 2 Điều 26 Nghị định 181/2025/NĐ-CP, nếu chưa đến hạn thanh toán theo hợp đồng, doanh nghiệp vẫn được khấu trừ bình thường.",
+   "Luật không quy định việc chia tỷ lệ khấu trừ theo tiến độ thanh toán trong trường hợp này."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 18,
+  "question": "Mức thuế suất GTGT đối với mặt hàng \"Thiết bị dùng để giảng dạy và học tập\" (mô hình, hình vẽ, bảng, phấn...) là bao nhiêu?",
+  "options": [
+   "5%",
+   "Không chịu thuế",
+   "0%",
+   "8%"
+  ],
+  "correct": 0,
+  "explanations": [
+   "Khoản 2 Điều 9 Luật số 48/2024/QH15 quy định thiết bị giáo dục thuộc nhóm áp dụng thuế suất 5%.",
+   "Thiết bị giáo dục là đối tượng chịu thuế với mức suất ưu đãi, không phải đối tượng không chịu thuế.",
+   "Thuế suất 0% chỉ dành cho hàng hóa, dịch vụ xuất khẩu hoặc tương đương.",
+   "Mức 8% là mức sau giảm của các nhóm đang chịu 10%, thiết bị giáo dục vốn dĩ đã ở mức 5%."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 19,
+  "question": "Khoản chi nào sau đây thuộc nhóm CHI KHÔNG ĐƯỢC TRỪ khi xác định thu nhập chịu thuế TNDN theo Luật số 67/2025/QH15?",
+  "options": [
+   "Chi phí nghiên cứu và phát triển phát sinh trong kỳ",
+   "Khoản chi hỗ trợ hoạt động của tổ chức Đảng trong doanh nghiệp",
+   "Chi thực hiện nhiệm vụ giáo dục quốc phòng và an ninh",
+   "Khoản tiền phạt do vi phạm hành chính"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Chi phí R&D liên quan đến hoạt động SXKD là khoản chi được trừ.",
+   "Đây là khoản chi thực tế phát sinh khác được phép trừ khi tính thuế TNDN.",
+   "Đây là khoản chi được trừ cụ thể theo quy định tại Điều 9.",
+   "Điểm b khoản 2 Điều 9 Luật Thuế TNDN quy định các khoản tiền phạt vi phạm hành chính không được tính vào chi phí được trừ."
+  ],
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 20,
+  "question": "Theo Thông tư 99/2025/TT-BTC, nguyên tắc ghi nhận doanh thu kế toán so với doanh thu tính thuế là:",
+  "options": [
+   "Doanh thu kế toán phải căn cứ theo hóa đơn đã lập",
+   "Có thể khác nhau tùy vào tình huống cụ thể và mục đích sử dụng",
+   "Luôn ưu tiên số liệu trên hóa đơn để đồng bộ dữ liệu với cơ quan thuế",
+   "Phải luôn bằng nhau trong mọi trường hợp"
+  ],
+  "correct": 1,
+  "explanations": [
+   "Doanh thu kế toán tuân thủ các chuẩn mực và nguyên tắc kế toán, không nhất thiết bằng số trên hóa đơn.",
+   "Khoản 5 Điều 5 Phụ lục Thông tư 99 quy định thời điểm và căn cứ ghi nhận có thể khác nhau.",
+   "Hóa đơn là căn cứ tính thuế, còn kế toán phải phản ánh đúng bản chất giao dịch kinh tế.",
+   "Sự khác biệt giữa kế toán và thuế là phổ biến do mục tiêu và nguyên tắc ghi nhận khác nhau."
+  ],
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 21,
+  "question": "Trường hợp doanh nghiệp thuê nhà cho các chuyên gia nước ngoài làm việc tại Việt Nam, chi phí này được trừ khi tính thuế TNDN nếu:",
+  "options": [
+   "Chuyên gia nước ngoài phải có thẻ thường trú tại Việt Nam",
+   "Chuyên gia nước ngoài trực tiếp ký hợp đồng thuê nhà",
+   "Hợp đồng giữa doanh nghiệp Việt Nam và doanh nghiệp nước ngoài nêu rõ doanh nghiệp Việt Nam chịu chi phí này",
+   "Số tiền thuê nhà không vượt quá 15% tổng thu nhập chịu thuế TNCN của chuyên gia"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Quy định về chi phí được trừ không yêu cầu loại thẻ lưu trú của chuyên gia.",
+   "Nếu chuyên gia trực tiếp ký và trả tiền thì doanh nghiệp chỉ được trừ nếu đó là khoản chi có tính chất tiền lương, tiền công được quy định rõ.",
+   "Đây là điều kiện quy định tại điểm b3 khoản 2 Điều 2 Nghị định 320/2025/NĐ-CP.",
+   "Đây là ngưỡng khống chế khi tính thuế TNCN, không phải điều kiện để doanh nghiệp được trừ chi phí TNDN."
+  ],
+  "topic": "Thuế TNCN"
+ },
+ {
+  "id": 22,
+  "question": "Đối với hoạt động gia công hàng hóa, doanh thu để tính thu nhập chịu thuế TNDN là:",
+  "options": [
+   "Chỉ bao gồm tiền công thuần túy, không bao gồm chi phí vật liệu phụ",
+   "Tổng giá trị của sản phẩm sau khi gia công xong",
+   "Khoản chênh lệch giữa giá bán sản phẩm và giá nguyên liệu đầu vào",
+   "Tiền thu về hoạt động gia công (tiền công, nhiên liệu, động lực, vật liệu phụ...)"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Các chi phí biến đổi phục vụ gia công mà bên nhận gia công chi trả và thu hồi lại cũng nằm trong doanh thu.",
+   "Doanh nghiệp gia công không sở hữu toàn bộ giá trị vật tư chính nên không ghi nhận tổng giá trị sản phẩm.",
+   "Đây là cách tính cho hoạt động thương mại hoặc sản xuất tự chủ, không phải gia công.",
+   "Theo điểm a khoản 3 Điều 2 Nghị định 320/2025/NĐ-CP, doanh thu là các khoản tiền thu được từ việc thực hiện dịch vụ gia công."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 23,
+  "question": "Thuế GTGT đầu vào của hàng hóa, dịch vụ sử dụng đồng thời cho sản xuất kinh doanh hàng chịu thuế và không chịu thuế mà không hạch toán riêng được thì:",
+  "options": [
+   "Phân bổ theo tỷ lệ % doanh thu hàng hóa dịch vụ chịu thuế GTGT trên tổng doanh thu",
+   "Không được khấu trừ bất kỳ khoản nào",
+   "Được lựa chọn khấu trừ theo tỷ lệ diện tích nhà xưởng hoặc nhân công",
+   "Được khấu trừ toàn bộ để hỗ trợ doanh nghiệp"
+  ],
+  "correct": 0,
+  "explanations": [
+   "Nguyên tắc phân bổ theo tỷ lệ doanh thu được quy định tại khoản 2 Điều 14 Luật Thuế GTGT 2024.",
+   "Doanh nghiệp vẫn được khấu trừ một phần tương ứng với hoạt động có chịu thuế.",
+   "Luật quy định tiêu chí phân bổ chính thức là dựa trên doanh thu.",
+   "Chỉ được khấu trừ phần tương ứng với doanh thu chịu thuế để đảm bảo tính công bằng."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 24,
+  "question": "Hóa đơn điện tử có mã của cơ quan thuế bao gồm những thông tin định danh nào sau đây do hệ thống tạo ra?",
+  "options": [
+   "Số giao dịch duy nhất và chuỗi ký tự mã hóa dựa trên thông tin người bán",
+   "Số thứ tự hóa đơn và ký hiệu mẫu số",
+   "Chữ ký số của cơ quan thuế trực tiếp cấp",
+   "Mã vạch QR liên kết trực tiếp với trang tra cứu hóa đơn"
+  ],
+  "correct": 0,
+  "explanations": [
+   "Theo khoản 2 Điều 3 Nghị định 123/2020/NĐ-CP, mã của cơ quan thuế gồm số giao dịch và chuỗi ký tự mã hóa.",
+   "Đây là các thông tin do người bán tự đăng ký và quản lý, không phải thành phần duy nhất của mã cơ quan thuế.",
+   "Mã của cơ quan thuế không phải là chữ ký số của cơ quan thuế gắn lên hóa đơn.",
+   "Mặc dù có thể có mã QR nhưng định nghĩa mã của cơ quan thuế trong luật nhấn mạnh vào số giao dịch và chuỗi ký tự."
+  ],
+  "topic": "Hóa đơn"
+ },
+ {
+  "id": 25,
+  "question": "Trong kỳ tính thuế, nếu doanh nghiệp phát hiện khoản chi từ 5 triệu đồng trở lên đã được tính vào chi phí nhưng thực tế thanh toán bằng tiền mặt thì xử lý như thế nào?",
+  "options": [
+   "Bị phạt vi phạm hành chính về kế toán và không cần điều chỉnh thuế",
+   "Kê khai, điều chỉnh giảm chi phí vào kỳ tính thuế phát sinh việc thanh toán bằng tiền mặt",
+   "Chỉ cần điều chỉnh giảm thuế GTGT đầu vào, không cần điều chỉnh chi phí TNDN",
+   "Được bổ sung chứng từ không dùng tiền mặt trong vòng 30 ngày để giữ lại chi phí"
+  ],
+  "correct": 1,
+  "explanations": [
+   "Khoản chi này sẽ ảnh hưởng trực tiếp đến nghĩa vụ thuế TNDN.",
+   "Quy định tại điểm c3 khoản 1 Điều 2 Nghị định 320/2025/NĐ-CP yêu cầu điều chỉnh giảm chi phí khi vi phạm điều kiện thanh toán không dùng tiền mặt.",
+   "Cả thuế GTGT và thuế TNDN đều yêu cầu điều kiện thanh toán không dùng tiền mặt cho ngưỡng từ 5 triệu đồng trở lên.",
+   "Sau khi đã thanh toán bằng tiền mặt thì việc bổ sung chứng từ khác không làm thay đổi bản chất vi phạm điều kiện khấu trừ."
+  ],
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 26,
+  "question": "Hoạt động nào sau đây thuộc Phụ lục I - Danh mục hàng hóa dịch vụ KHÔNG được giảm thuế GTGT tại Nghị định 174/2025/NĐ-CP?",
+  "options": [
+   "Sản phẩm nông sản chưa qua chế biến",
+   "Dịch vụ ăn uống và lưu trú",
+   "Dịch vụ cấp tín dụng không thế chấp thương mại",
+   "Sản phẩm xăng các loại"
+  ],
+  "correct": 2,
+  "explanations": [
+   "Nhóm này thường thuộc đối tượng không chịu thuế GTGT hoặc thuế suất 5%, không thuộc phạm vi điều chỉnh giảm từ 10% xuống 8%.",
+   "Dịch vụ này thông thường được áp dụng giảm thuế xuống 8% nếu đang chịu 10%.",
+   "Dịch vụ cấp tín dụng nằm trong nhóm hoạt động tài chính không được giảm thuế tại Phụ lục I.",
+   "Xăng được loại trừ khỏi nhóm hàng hóa chịu thuế tiêu thụ đặc biệt không được giảm (tức là xăng được giảm) theo điểm b khoản 1 Điều 1."
+  ],
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 27,
+  "question": "Để tính Lãi suy giảm trên cổ phiếu (Diluted EPS), tử số của công thức được xác định bằng cách lấy Lợi nhuận sau thuế TNDN điều chỉnh với:",
+  "options": [
+   "Cộng thêm phần thuế TNDN đã nộp trong kỳ",
+   "Giữ nguyên lợi nhuận sau thuế trên báo cáo tài chính riêng",
+   "Trừ đi toàn bộ tiền cổ tức đã trả trong kỳ",
+   "Cộng các khoản điều chỉnh tăng và trừ các khoản điều chỉnh giảm"
+  ],
+  "correct": 3,
+  "explanations": [
+   "Lợi nhuận dùng để tính EPS phải là lợi nhuận sau thuế.",
+   "Đối với công ty mẹ, EPS phải tính trên cơ sở thông tin hợp nhất, không dùng số liệu riêng.",
+   "Chỉ có cổ tức của cổ phiếu ưu đãi mới là khoản điều chỉnh giảm chính, không phải toàn bộ cổ tức.",
+   "Công thức xác định lợi nhuận phân bổ cho cổ phiếu phổ thông tại mục 3.21.3 Phụ lục Thông tư 99/2025/TT-BTC."
+  ],
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 28,
+  "question": "Trường hợp nào doanh nghiệp KHÔNG được khấu trừ thuế GTGT đầu vào của tài sản cố định là máy móc, thiết bị?",
+  "options": [
+   "Các hóa đơn được lập từ các hành vi bị nghiêm cấm theo Luật Thuế GTGT",
+   "Máy móc dùng trong quy trình sản xuất khép kín sản phẩm không chịu thuế sang chịu thuế",
+   "Tài sản cố định phục vụ cho mục đích phúc lợi cho người lao động",
+   "Sử dụng cho hoạt động tìm kiếm thăm dò mỏ dầu khí"
+  ],
+  "correct": 0,
+  "explanations": [
+   "Khoản 15 Điều 23 Nghị định 181/2025/NĐ-CP quy định không được khấu trừ đối với các hóa đơn vi phạm điều cấm của luật.",
+   "Trường hợp sản xuất khép kín được khấu trừ toàn bộ thuế đầu vào các khâu theo Nghị định 181/2025/NĐ-CP.",
+   "Tài sản cố định phục vụ người lao động (như nhà ở, xe đưa đón) vẫn có trường hợp được Chính phủ quy định cho phép khấu trừ.",
+   "Hoạt động này được khấu trừ toàn bộ thuế GTGT đầu vào theo Nghị định 181/2025/NĐ-CP."
+  ],
+  "topic": "Thuế GTGT"
+ }
+]

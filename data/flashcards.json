@@ -1,0 +1,452 @@
+[
+ {
+  "id": 1,
+  "front": "Nêu 03 điều kiện để một khoản chi được tính vào chi phí được trừ khi xác định thu nhập chịu thuế TNDN?",
+  "back": "1. Chi thực tế liên quan SXKD; 2. Có đủ hóa đơn/chứng từ; 3. Có chứng từ thanh toán không dùng tiền mặt với hóa đơn từ 05 triệu đồng trở lên (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 2,
+  "front": "Ngưỡng giá trị hóa đơn bắt buộc phải có chứng từ thanh toán không dùng tiền mặt để được khấu trừ thuế GTGT và trừ chi phí TNDN là bao nhiêu?",
+  "back": "Từ 05 triệu đồng trở lên (Nghị định 181/2025/NĐ-CP và Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 3,
+  "front": "Tỷ lệ trích đóng Bảo hiểm xã hội (BHXH) bắt buộc vào quỹ hưu trí và tử tuất của người lao động là bao nhiêu?",
+  "back": "8% tiền lương làm căn cứ đóng BHXH (Điều 33 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 4,
+  "front": "Tổng tỷ lệ đóng BHXH bắt buộc của người sử dụng lao động cho các quỹ (ốm đau, thai sản, hưu trí, tử tuất, tai nạn lao động) là bao nhiêu?",
+  "back": "17,5% tiền lương làm căn cứ đóng (17% theo Luật BHXH 41/2024 và 0,5% theo Nghị định 158/2025).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 5,
+  "front": "Quy tắc 14 ngày công: Người lao động không hưởng tiền lương từ bao nhiêu ngày làm việc trở lên trong tháng thì không phải đóng BHXH tháng đó?",
+  "back": "Từ 14 ngày làm việc trở lên (Điều 33 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 6,
+  "front": "Hành vi nộp hồ sơ khai thuế quá thời hạn từ 01 đến 05 ngày và có tình tiết giảm nhẹ sẽ chịu hình thức xử phạt nào?",
+  "back": "Phạt cảnh cáo (Điều 13 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 7,
+  "front": "Khung tiền phạt đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 01 ngày đến 30 ngày là bao nhiêu?",
+  "back": "Từ 2.000.000 đồng đến 5.000.000 đồng (Điều 13 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 8,
+  "front": "Khung tiền phạt đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 31 ngày đến 60 ngày là bao nhiêu?",
+  "back": "Từ 5.000.000 đồng đến 8.000.000 đồng (Điều 13 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 9,
+  "front": "Khung tiền phạt đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 61 ngày đến 90 ngày (hoặc trên 90 ngày nhưng không phát sinh thuế phải nộp) là bao nhiêu?",
+  "back": "Từ 8.000.000 đồng đến 15.000.000 đồng (Điều 13 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 10,
+  "front": "Khung tiền phạt đối với hành vi nộp hồ sơ khai thuế quá thời hạn trên 90 ngày, có phát sinh số thuế phải nộp và đã nộp đủ thuế trước khi có quyết định kiểm tra là bao nhiêu?",
+  "back": "Từ 15.000.000 đồng đến 25.000.000 đồng (Điều 13 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 11,
+  "front": "Mức thuế suất thuế GTGT sau khi giảm theo Nghị quyết 204/2025/QH15 đối với các nhóm hàng hóa đang áp dụng mức 10% (trừ các nhóm loại trừ) là bao nhiêu?",
+  "back": "8% (Nghị định 174/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 12,
+  "front": "Kể tên ít nhất 05 nhóm hàng hóa, dịch vụ không được giảm thuế GTGT xuống 8% theo Nghị định 174/2025/NĐ-CP?",
+  "back": "Viễn thông, hoạt động tài chính, ngân hàng, chứng khoán, bảo hiểm, kinh doanh bất động sản, sản phẩm kim loại (Chi tiết tại Phụ lục I/II Nghị định 174/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 13,
+  "front": "Mức chi trang phục bằng tiền cho người lao động tối đa được tính vào chi phí được trừ khi tính thuế TNDN là bao nhiêu?",
+  "back": "Không vượt quá 05 triệu đồng/người/năm (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 14,
+  "front": "Mức trần chi trang phục bằng hiện vật cho người lao động để được tính vào chi phí được trừ là bao nhiêu?",
+  "back": "Không quy định mức trần nhưng phải có đầy đủ hóa đơn, chứng từ (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 15,
+  "front": "Tiền lương làm căn cứ đóng BHXH bắt buộc cao nhất bằng bao nhiêu lần mức tham chiếu?",
+  "back": "Bằng 20 lần mức tham chiếu tại thời điểm đóng (Điều 31 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 16,
+  "front": "Trong trường hợp chưa bãi bỏ mức lương cơ sở, mức tham chiếu trong Luật BHXH 2024 được xác định như thế nào?",
+  "back": "Bằng mức lương cơ sở (Điều 141 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 17,
+  "front": "Thu nhập làm căn cứ đóng BHXH tự nguyện thấp nhất được quy định như thế nào?",
+  "back": "Bằng mức chuẩn hộ nghèo của khu vực nông thôn (Điều 31 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 18,
+  "front": "Mức lãi suất chậm đóng BHXH bắt buộc hằng ngày được tính như thế nào?",
+  "back": "Bằng 0,03% tính trên số tiền BHXH chậm đóng (Điều 8 Nghị định 158/2025/NĐ-CP).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 19,
+  "front": "Công thức tính Lãi cơ bản trên cổ phiếu (EPS) theo Thông tư 99/2025/TT-BTC?",
+  "back": "EPS = (Lợi nhuận phân bổ cho cổ đông phổ thông − Số trích quỹ khen thưởng, phúc lợi) / (Số lượng bình quân gia quyền của cổ phiếu phổ thông lưu hành)",
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 20,
+  "front": "Thời hiệu xử phạt vi phạm hành chính đối với hành vi vi phạm thủ tục thuế là bao nhiêu năm?",
+  "back": "02 năm, kể từ ngày thực hiện hành vi vi phạm (Điều 8 Nghị định 310/2025/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 21,
+  "front": "Thời hiệu xử phạt đối với hành vi trốn thuế (chưa đến mức truy cứu hình sự) hoặc khai sai dẫn đến thiếu thuế là bao nhiêu năm?",
+  "back": "05 năm, kể từ ngày thực hiện hành vi vi phạm (Điều 8 Nghị định 310/2025/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 22,
+  "front": "Theo Nghị định 181/2025, cơ sở kinh doanh được khấu trừ thuế GTGT đầu vào nếu ủy quyền cho người lao động thanh toán không dùng tiền mặt dưới điều kiện nào?",
+  "back": "Phải quy định trong quy chế tài chính/nội bộ và doanh nghiệp thanh toán lại cho người lao động bằng hình thức không dùng tiền mặt.",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 23,
+  "front": "Các loại hình BHXH bắt buộc bao gồm những chế độ nào?",
+  "back": "Ốm đau; Thai sản; Hưu trí; Tử tuất; Bảo hiểm tai nạn lao động, bệnh nghề nghiệp (Điều 4 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 24,
+  "front": "BHXH tự nguyện bao gồm các chế độ nào theo Luật BHXH 2024?",
+  "back": "Trợ cấp thai sản; Hưu trí; Tử tuất; Bảo hiểm tai nạn lao động (Điều 4 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 25,
+  "front": "Trường hợp mua hàng của một người bán dưới 05 triệu đồng/lần nhưng mua nhiều lần trong ngày có tổng giá trị ≥ 05 triệu đồng thì cần điều kiện gì để được tính vào chi phí được trừ?",
+  "back": "Phải có chứng từ thanh toán không dùng tiền mặt (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 26,
+  "front": "Thời hạn tối đa để đóng bổ sung BHXH bắt buộc một lần cho số tháng còn thiếu để đủ điều kiện hưởng lương hưu là bao nhiêu tháng?",
+  "back": "Thiếu tối đa 06 tháng (Điều 33 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 27,
+  "front": "Mức đóng BHXH bắt buộc vào quỹ hưu trí và tử tuất của người sử dụng lao động theo Luật BHXH 2024 là bao nhiêu %?",
+  "back": "14% tiền lương làm căn cứ đóng BHXH (Điều 34 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 28,
+  "front": "Mức đóng BHXH bắt buộc vào quỹ ốm đau và thai sản của người sử dụng lao động theo Luật BHXH 2024 là bao nhiêu %?",
+  "back": "3% tiền lương làm căn cứ đóng BHXH (Điều 34 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 29,
+  "front": "Nêu điều kiện để người tham gia BHXH tự nguyện được hưởng lương hưu theo Luật BHXH 2024?",
+  "back": "Đủ tuổi nghỉ hưu theo quy định và có thời gian đóng BHXH từ đủ 15 năm trở lên (Điều 98 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 30,
+  "front": "Mức trợ cấp mai táng đối với người đóng BHXH bắt buộc đủ thời gian hoặc đang hưởng lương hưu được tính như thế nào?",
+  "back": "Bằng 10 lần mức tham chiếu tại tháng người đó chết (Điều 85 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 31,
+  "front": "Chứng từ thanh toán không dùng tiền mặt theo Nghị định 181/2025 KHÔNG bao gồm loại chứng từ nào?",
+  "back": "Chứng từ bên mua nộp tiền mặt vào tài khoản của bên bán.",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 32,
+  "front": "Để được khấu trừ thuế GTGT đầu vào cho hàng hóa mua trả chậm/trả góp ≥ 05 triệu đồng, doanh nghiệp cần căn cứ vào tài liệu gì?",
+  "back": "Hợp đồng văn bản, hóa đơn GTGT và chứng từ thanh toán không dùng tiền mặt (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 33,
+  "front": "Đối với hoạt động chuyển nhượng vốn có giá trị từ 05 triệu đồng trở lên, nếu không có chứng từ thanh toán không dùng tiền mặt thì cơ quan thuế có quyền gì?",
+  "back": "Cơ quan thuế có quyền ấn định giá chuyển nhượng (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 34,
+  "front": "Đối tượng nào không áp dụng thuế suất GTGT 0% khi xuất khẩu theo Nghị định 181/2025?",
+  "back": "Chuyển giao công nghệ, dịch vụ tái bảo hiểm ra nước ngoài, dịch vụ cấp tín dụng, chuyển nhượng vốn, sản phẩm phái sinh, bưu chính viễn thông.",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 35,
+  "front": "Mức phạt tiền đối với hành vi không cung cấp hoặc cung cấp không đầy đủ thông tin tài khoản ngân hàng theo thông báo của cơ quan thuế là bao nhiêu?",
+  "back": "Từ 3.000.000 đồng đến 5.000.000 đồng (Điều 14 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 36,
+  "front": "Thời hạn nộp hồ sơ hưởng trợ cấp thai sản cho cơ quan BHXH là bao nhiêu ngày kể từ ngày sinh con?",
+  "back": "Trong thời hạn 60 ngày (Điều 97 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 37,
+  "front": "Điều kiện về thời gian đóng BHXH bắt buộc tối thiểu để thân nhân được hưởng trợ cấp mai táng khi người lao động chết là bao lâu?",
+  "back": "Từ đủ 12 tháng trở lên (Điều 85 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 38,
+  "front": "Mức lương hưu hằng tháng thấp nhất của người lao động đóng BHXH bắt buộc từ đủ 20 năm trở lên (trước ngày Luật BHXH 2024 hiệu lực) được quy định như thế nào?",
+  "back": "Bằng mức tham chiếu (Điều 141 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 39,
+  "front": "Tiền lương làm căn cứ đóng BHXH bắt buộc thấp nhất là bao nhiêu?",
+  "back": "Bằng mức tham chiếu tại thời điểm đóng (Điều 31 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 40,
+  "front": "Trường hợp nào người sử dụng lao động được xem xét tạm dừng đóng vào quỹ hưu trí và tử tuất?",
+  "back": "Gặp khó khăn khi thay đổi cơ cấu, công nghệ hoặc do khủng hoảng, suy thoái kinh tế theo quy định (Điều 10 Nghị định 158/2025/NĐ-CP).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 41,
+  "front": "Người lao động bị tạm giam từ 14 ngày làm việc trở lên trong tháng thì việc đóng BHXH được xử lý như thế nào?",
+  "back": "Người lao động và người sử dụng lao động tạm dừng đóng BHXH bắt buộc (Điều 11 Nghị định 158/2025/NĐ-CP).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 42,
+  "front": "Sau thời gian tạm giam, nếu người lao động được truy lĩnh 100% tiền lương thì việc đóng BHXH được thực hiện như thế nào?",
+  "back": "Thực hiện đóng bù BHXH bắt buộc cho thời gian bị tạm giam (Điều 11 Nghị định 158/2025/NĐ-CP).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 43,
+  "front": "Lao động nam đóng BHXH từ đủ 15 năm đến dưới 20 năm thì mức hưởng lương hưu hằng tháng cơ bản là bao nhiêu %?",
+  "back": "40% mức bình quân tiền lương làm căn cứ đóng (Điều 66 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 44,
+  "front": "Lao động nữ đóng BHXH đủ 15 năm thì mức hưởng lương hưu hằng tháng cơ bản là bao nhiêu %?",
+  "back": "45% mức bình quân tiền lương làm căn cứ đóng (Điều 66 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 45,
+  "front": "Mức lương hưu hằng tháng tối đa đối với người lao động là bao nhiêu % mức bình quân tiền lương làm căn cứ đóng?",
+  "back": "75% (Điều 66 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 46,
+  "front": "Thời gian nghỉ việc hưởng chế độ thai sản từ 14 ngày làm việc trở lên trong tháng có được tính là thời gian đóng BHXH không?",
+  "back": "Được tính là thời gian đóng BHXH và cả người lao động, người sử dụng lao động không phải đóng BHXH tháng đó (Điều 34 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 47,
+  "front": "Trường hợp nào hóa đơn ≥ 05 triệu đồng thanh toán qua bên thứ ba tại Kho bạc Nhà nước để cưỡng chế nợ vẫn được khấu trừ thuế GTGT?",
+  "back": "Trường hợp thanh toán không dùng tiền mặt vào tài khoản của bên thứ ba mở tại Kho bạc theo quyết định của cơ quan nhà nước (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 48,
+  "front": "Doanh nghiệp tính thuế GTGT theo phương pháp trực tiếp khi xuất hóa đơn cho hàng hóa được giảm thuế theo Nghị định 174/2025 thì mức giảm là bao nhiêu?",
+  "back": "Giảm 20% mức tỷ lệ % để tính thuế GTGT (Điều 1 Nghị định 174/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 49,
+  "front": "Xăng có thuộc nhóm hàng hóa chịu thuế tiêu thụ đặc biệt được giảm thuế GTGT theo Nghị định 174/2025 không?",
+  "back": "Có, xăng là ngoại lệ thuộc nhóm chịu thuế tiêu thụ đặc biệt vẫn được giảm thuế GTGT (Điều 1 Nghị định 174/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 50,
+  "front": "Hành vi không thông báo tạm ngừng hoạt động kinh doanh cho cơ quan thuế bị phạt bao nhiêu tiền?",
+  "back": "Từ 1.000.000 đồng đến 2.000.000 đồng (Điều 10 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 51,
+  "front": "Thời hạn hoàn thành giải quyết hồ sơ hưởng BHXH một lần của cơ quan BHXH là bao nhiêu ngày làm việc kể từ ngày nhận đủ hồ sơ?",
+  "back": "Trong thời hạn 07 ngày làm việc (Điều 104 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 52,
+  "front": "Mức trợ cấp tuất một lần cho thân nhân người đang đóng BHXH tự nguyện đối với mỗi năm đóng trước năm 2014 là bao nhiêu?",
+  "back": "Bằng 1,5 lần mức bình quân thu nhập làm căn cứ đóng BHXH (Điều 110 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 53,
+  "front": "Mức trợ cấp tuất một lần cho mỗi năm đóng BHXH từ năm 2014 trở đi là bao nhiêu?",
+  "back": "Bằng 02 lần mức bình quân thu nhập làm căn cứ đóng BHXH (Điều 110 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 54,
+  "front": "Mức trợ cấp tuất một lần tối thiểu cho người có cả thời gian đóng BHXH bắt buộc và tự nguyện là bao nhiêu?",
+  "back": "Tối thiểu bằng 03 lần mức bình quân tiền lương và thu nhập làm căn cứ đóng (Điều 110 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 55,
+  "front": "Doanh nghiệp mới thành lập từ dự án đầu tư của cơ sở đang hoạt động nộp thuế GTGT khấu trừ thì áp dụng phương pháp tính thuế nào?",
+  "back": "Phương pháp khấu trừ thuế (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 56,
+  "front": "Điều kiện về doanh thu hằng năm để doanh nghiệp, hợp tác xã đăng ký tự nguyện áp dụng phương pháp khấu trừ thuế là bao nhiêu?",
+  "back": "Dưới 01 tỷ đồng và thực hiện đầy đủ chế độ kế toán, hóa đơn, chứng từ (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 57,
+  "front": "Cơ sở kinh doanh sản xuất hàng hóa chịu thuế suất 5% được hoàn thuế GTGT đầu vào nếu số thuế chưa khấu trừ hết đạt mức tối thiểu nào?",
+  "back": "Từ 300 triệu đồng trở lên sau khi bù trừ (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 58,
+  "front": "Các khoản phụ thu ngoài giá bán mà doanh nghiệp không được hưởng có được tính vào doanh thu không?",
+  "back": "Không được tính vào doanh thu của doanh nghiệp (Thông tư 99/2025/TT-BTC).",
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 59,
+  "front": "Chỉ tiêu Lãi suy giảm trên cổ phiếu được trình bày trên báo cáo tài chính nào của công ty mẹ là công ty cổ phần?",
+  "back": "Chỉ trình bày trên Báo cáo tài chính hợp nhất (Thông tư 99/2025/TT-BTC).",
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 60,
+  "front": "Khi tính Lãi cơ bản trên cổ phiếu, nếu có chênh lệch giữa số trích quỹ khen thưởng thực tế và số ước tính năm trước thì xử lý như thế nào?",
+  "back": "Điều chỉnh hồi tố vào lãi cơ bản trên cổ phiếu của năm trước (Thông tư 99/2025/TT-BTC).",
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 61,
+  "front": "Xác định lợi nhuận phân bổ cho cổ phiếu phổ thông: Lợi nhuận = Lợi nhuận sau thuế TNDN − Các khoản điều chỉnh giảm + ____?",
+  "back": "Các khoản điều chỉnh tăng (Thông tư 99/2025/TT-BTC).",
+  "topic": "Kế toán / BCTC"
+ },
+ {
+  "id": 62,
+  "front": "Thời điểm tính thời hiệu xử phạt đối với hành vi không nộp hồ sơ khai thuế là ngày nào?",
+  "back": "Ngày người có thẩm quyền thi hành công vụ phát hiện hành vi vi phạm (Nghị định 310/2025/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 63,
+  "front": "Doanh nghiệp có từ 10 đến 100 lao động nữ và chiếm trên 50% tổng lao động được hưởng ưu đãi thuế TNDN như thế nào?",
+  "back": "Được giảm thuế TNDN bằng số chi thêm cho lao động nữ theo quy định (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 64,
+  "front": "Hệ số điều chỉnh tiền lương đóng BHXH cho người lao động thực hiện chế độ tiền lương Nhà nước từ 2016 được tính dựa trên chỉ số nào?",
+  "back": "Chỉ số giá tiêu dùng bình quân năm (CPI) (Nghị định 158/2025/NĐ-CP).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 65,
+  "front": "Mức trợ cấp tuất hằng tháng cho mỗi thân nhân người lao động chết do tai nạn lao động là bao nhiêu?",
+  "back": "Bằng 50% mức tham chiếu; nếu không có người trực tiếp nuôi dưỡng thì bằng 70% (Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 66,
+  "front": "Thời hạn đóng BHXH bắt buộc chậm nhất đối với phương thức đóng hằng tháng là khi nào?",
+  "back": "Ngày cuối cùng của tháng tiếp theo ngay sau kỳ đóng (Điều 33 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 67,
+  "front": "Hành vi lập sai hoặc không đầy đủ nội dung báo cáo hóa đơn gửi cơ quan thuế bị phạt bao nhiêu tiền?",
+  "back": "Từ 1.000.000 đồng đến 3.000.000 đồng (Điều 15 Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ },
+ {
+  "id": 68,
+  "front": "Chứng từ khấu trừ thuế TNCN được thực hiện theo mẫu biểu nào quy định tại Nghị định 70/2025/NĐ-CP?",
+  "back": "Mẫu số 03/TNCN.",
+  "topic": "Thuế TNCN"
+ },
+ {
+  "id": 69,
+  "front": "Hoạt động dạy học, dạy nghề theo quy định pháp luật có chịu thuế GTGT không?",
+  "back": "Không thuộc đối tượng chịu thuế GTGT (Nghị định 181/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 70,
+  "front": "Văn bản ủy quyền nhận lương hưu, trợ cấp BHXH theo Luật cũ 58/2014 được tiếp tục thực hiện đến ngày nào?",
+  "back": "Hết ngày 30 tháng 6 năm 2026 (Điều 141 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 71,
+  "front": "Cơ sở kinh doanh tính thuế GTGT theo phương pháp tỷ lệ % trên doanh thu được giảm bao nhiêu % mức tỷ lệ khi xuất hóa đơn hàng hóa thuộc diện giảm thuế?",
+  "back": "Giảm 20% mức tỷ lệ % để tính thuế GTGT (Nghị định 174/2025/NĐ-CP).",
+  "topic": "Thuế GTGT"
+ },
+ {
+  "id": 72,
+  "front": "Mức trợ cấp hưu trí xã hội hằng tháng do cơ quan nào quy định?",
+  "back": "Chính phủ quy định phù hợp với điều kiện kinh tế - xã hội từng thời kỳ (Điều 22 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 73,
+  "front": "Người vừa có thời gian đóng BHXH bắt buộc vừa có thời gian đóng tự nguyện được hưởng chế độ tử tuất dựa trên căn cứ nào?",
+  "back": "Dựa trên tổng thời gian đã đóng BHXH bắt buộc và tự nguyện (Điều 5 Luật Bảo hiểm xã hội 41/2024/QH15).",
+  "topic": "BHXH"
+ },
+ {
+  "id": 74,
+  "front": "Trong kỳ tính thuế, nếu doanh nghiệp không đáp ứng điều kiện ưu đãi thuế TNDN thì phải nộp thuế theo mức suất bao nhiêu?",
+  "back": "Mức thuế suất 20% (Nghị định 320/2025/NĐ-CP).",
+  "topic": "Thuế TNDN"
+ },
+ {
+  "id": 75,
+  "front": "Thời hiệu xử phạt vi phạm hành chính về hóa đơn là bao lâu?",
+  "back": "01 năm (Nghị định 125/2020/NĐ-CP).",
+  "topic": "Xử phạt vi phạm"
+ }
+]
