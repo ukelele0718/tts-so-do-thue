@@ -81,30 +81,104 @@ function renderGallery() {
   });
 }
 
-/* ---------- Lightbox ---------- */
+/* ---------- Lightbox with zoom / pan ---------- */
 let lbPair = null;
+const lbImg = $("#lbImg"), lbStage = $("#lbStage");
+const z = { s: 1, min: 1, tx: 0, ty: 0 };
+
+function applyZ() { lbImg.style.transform = `translate(${z.tx}px,${z.ty}px) scale(${z.s})`; }
+function markZoom() { lbStage.classList.toggle("zoomed", z.s > z.min * 1.02); }
+function clampPan() {
+  const cw = lbStage.clientWidth, ch = lbStage.clientHeight;
+  const iw = lbImg.naturalWidth * z.s, ih = lbImg.naturalHeight * z.s;
+  z.tx = iw <= cw ? (cw - iw) / 2 : Math.min(0, Math.max(cw - iw, z.tx));
+  z.ty = ih <= ch ? (ch - ih) / 2 : Math.min(0, Math.max(ch - ih, z.ty));
+}
+function fitImage() {
+  const cw = lbStage.clientWidth, ch = lbStage.clientHeight;
+  const iw = lbImg.naturalWidth, ih = lbImg.naturalHeight;
+  if (!iw || !ih) return;
+  z.min = Math.min(cw / iw, ch / ih);
+  z.s = z.min; z.tx = (cw - iw * z.s) / 2; z.ty = (ch - ih * z.s) / 2;
+  applyZ(); markZoom();
+}
+function zoomAt(mx, my, factor) {
+  const px = (mx - z.tx) / z.s, py = (my - z.ty) / z.s;
+  z.s = Math.max(z.min, Math.min(z.min * 12, z.s * factor));
+  z.tx = mx - px * z.s; z.ty = my - py * z.s;
+  clampPan(); applyZ(); markZoom();
+}
+lbImg.onload = fitImage;
+function setLbSrc(src) { lbImg.src = src; if (lbImg.complete && lbImg.naturalWidth) fitImage(); }
+
 function lbLabel(src) {
   if (!lbPair) return;
-  const showingInfo = src.endsWith(lbPair.info);
-  $("#lbToggle").textContent = showingInfo ? "📊 Xem sơ đồ luồng" : "🖼️ Xem infographic";
+  $("#lbToggle").textContent = src.endsWith(lbPair.info) ? "📊 Xem sơ đồ luồng" : "🖼️ Xem infographic";
 }
 function openLightbox(src, pair) {
-  $("#lbImg").src = src;
   lbPair = (pair && pair.sodo && pair.info && pair.sodo !== pair.info) ? pair : null;
-  const tog = $("#lbToggle");
-  if (lbPair) { tog.classList.remove("hidden"); lbLabel(src); } else tog.classList.add("hidden");
+  $("#lbToggle").classList.toggle("hidden", !lbPair);
+  if (lbPair) lbLabel(src);
   $("#lightbox").classList.remove("hidden");
   document.body.style.overflow = "hidden";
+  setLbSrc(src);
 }
-function closeLightbox() { $("#lightbox").classList.add("hidden"); $("#lbImg").src = ""; document.body.style.overflow = ""; }
-$("#lbToggle").onclick = () => {
-  const cur = $("#lbImg").src;
-  const next = cur.endsWith(lbPair.info) ? lbPair.sodo : lbPair.info;
-  $("#lbImg").src = next; lbLabel(next);
+function closeLightbox() { $("#lightbox").classList.add("hidden"); lbImg.src = ""; document.body.style.overflow = ""; }
+
+$("#lbToggle").onclick = e => {
+  e.stopPropagation();
+  const next = lbImg.src.endsWith(lbPair.info) ? lbPair.sodo : lbPair.info;
+  setLbSrc(next); lbLabel(next);
 };
 $(".lb-close").onclick = closeLightbox;
-$("#lightbox").onclick = e => { if (e.target.id === "lightbox") closeLightbox(); };
-document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbox(); });
+$("#lbZoomIn").onclick = () => zoomAt(lbStage.clientWidth / 2, lbStage.clientHeight / 2, 1.4);
+$("#lbZoomOut").onclick = () => zoomAt(lbStage.clientWidth / 2, lbStage.clientHeight / 2, 1 / 1.4);
+$("#lbZoomReset").onclick = fitImage;
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#lightbox").classList.contains("hidden")) closeLightbox(); });
+
+lbStage.addEventListener("wheel", e => {
+  e.preventDefault();
+  const r = lbStage.getBoundingClientRect();
+  zoomAt(e.clientX - r.left, e.clientY - r.top, e.deltaY < 0 ? 1.18 : 1 / 1.18);
+}, { passive: false });
+lbStage.addEventListener("dblclick", e => {
+  const r = lbStage.getBoundingClientRect();
+  if (z.s > z.min * 1.05) fitImage(); else zoomAt(e.clientX - r.left, e.clientY - r.top, 2.6);
+});
+
+const pts = new Map(); let last = null, pinchD = 0, moved = 0, downTarget = null;
+lbStage.addEventListener("pointerdown", e => {
+  downTarget = e.target;
+  lbStage.setPointerCapture(e.pointerId);
+  pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  last = { x: e.clientX, y: e.clientY }; moved = 0;
+  if (pts.size === 2) { const [a, b] = [...pts.values()]; pinchD = Math.hypot(a.x - b.x, a.y - b.y); }
+});
+lbStage.addEventListener("pointermove", e => {
+  if (!pts.has(e.pointerId)) return;
+  pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (pts.size === 2) {
+    const [a, b] = [...pts.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y);
+    const r = lbStage.getBoundingClientRect();
+    if (pinchD) zoomAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, d / pinchD);
+    pinchD = d; last = null; moved = 99;
+  } else if (last) {
+    const dx = e.clientX - last.x, dy = e.clientY - last.y;
+    moved += Math.abs(dx) + Math.abs(dy);
+    z.tx += dx; z.ty += dy; last = { x: e.clientX, y: e.clientY }; clampPan(); applyZ();
+  }
+});
+function endPtr(e) {
+  pts.delete(e.pointerId);
+  if (pts.size < 2) pinchD = 0;
+  last = pts.size === 1 ? { ...[...pts.values()][0] } : null;
+  // tap on dark backdrop (no drag, not zoomed) closes
+  if (pts.size === 0 && moved < 6 && z.s <= z.min * 1.02 && downTarget === lbStage) closeLightbox();
+}
+lbStage.addEventListener("pointerup", endPtr);
+lbStage.addEventListener("pointercancel", e => { pts.delete(e.pointerId); if (pts.size < 2) pinchD = 0; });
+window.addEventListener("resize", () => { if (!$("#lightbox").classList.contains("hidden")) fitImage(); });
+
 $$(".zoomable").forEach(img => img.onclick = () => openLightbox(img.dataset.full, null));
 
 /* ---------- Flashcards ---------- */

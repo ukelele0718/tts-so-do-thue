@@ -141,11 +141,20 @@ main{padding:22px 0 60px}
 .result-score{font-size:3rem;font-weight:800;color:var(--brand);line-height:1}
 .result-box p{color:var(--muted)}
 
-/* Lightbox */
-.lightbox{position:fixed;inset:0;z-index:60;background:rgba(8,12,22,.92);display:flex;align-items:center;justify-content:center;padding:20px;overscroll-behavior:contain}
-.lightbox img{max-width:100%;max-height:92vh;object-fit:contain;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
-.lb-close{position:fixed;top:14px;right:16px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,.15);color:#fff;font-size:1.3rem;cursor:pointer}
-.lb-toggle{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);border:none;background:var(--brand);color:#fff;padding:11px 22px;border-radius:999px;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+/* Lightbox with zoom/pan */
+.lightbox{position:fixed;inset:0;z-index:60;background:rgba(8,12,22,.94);overscroll-behavior:contain}
+.lb-stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:zoom-in}
+.lb-stage.zoomed{cursor:grab}
+.lb-stage.zoomed:active{cursor:grabbing}
+#lbImg{position:absolute;top:0;left:0;transform-origin:0 0;max-width:none;max-height:none;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;will-change:transform}
+.lb-close{position:fixed;top:14px;right:16px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,.16);color:#fff;font-size:1.3rem;cursor:pointer;z-index:3}
+.lb-close:hover{background:rgba(255,255,255,.3)}
+.lb-toggle{position:fixed;top:16px;left:50%;transform:translateX(-50%);border:none;background:var(--brand);color:#fff;padding:11px 22px;border-radius:999px;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.4);z-index:3}
+.lb-tools{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:3}
+.lb-tools button{width:46px;height:46px;border-radius:50%;border:none;background:rgba(255,255,255,.16);color:#fff;font-size:1.5rem;line-height:1;cursor:pointer;display:grid;place-items:center}
+.lb-tools button:hover{background:rgba(255,255,255,.3)}
+.lb-hint{position:fixed;bottom:74px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.6);font-size:.76rem;text-align:center;z-index:3;pointer-events:none;padding:0 12px;width:100%;max-width:520px}
+@media(max-width:560px){.lb-hint{display:none}}
 
 /* Footer */
 .site-footer{padding:26px 16px 40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);margin-top:20px;text-align:center}

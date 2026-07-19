@@ -92,7 +92,13 @@
 <div id="lightbox" class="lightbox hidden">
   <button class="lb-close" aria-label="Đóng">✕</button>
   <button class="lb-toggle hidden" id="lbToggle"></button>
-  <img id="lbImg" src="" alt="">
+  <div class="lb-stage" id="lbStage"><img id="lbImg" src="" alt="" draggable="false"></div>
+  <div class="lb-tools">
+    <button id="lbZoomOut" aria-label="Thu nhỏ" title="Thu nhỏ">−</button>
+    <button id="lbZoomReset" aria-label="Vừa màn hình" title="Vừa màn hình">⤢</button>
+    <button id="lbZoomIn" aria-label="Phóng to" title="Phóng to">+</button>
+  </div>
+  <div class="lb-hint">Cuộn chuột / chụm 2 ngón để zoom · kéo để di chuyển · double-click để phóng</div>
 </div>
 
 <script src="app.js"></script>
